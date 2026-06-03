@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Academic personal website, listing publications, research interests, teaching portfolio, and contact information.">
+  
+  <!-- Open Graph / SEO -->
+  <meta property="og:title" content="Dr. Sarah Jenkins | Academic Portfolio">
+  <meta property="og:description" content="Personal academic website of Dr. Sarah Jenkins. Explorer of AI, Human-Computer Interaction, and Societal Impact.">
+  <meta property="og:type" content="website">
+  
+  <title>Dr. Sarah Jenkins | Academic Portfolio</title>
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation Header -->
+  <header>
+    <div class="nav-container">
+      <a href="#" class="logo" id="site-logo">
+        Sarah<span>Jenkins</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about" class="active" id="nav-about">About</a></li>
+        <li><a href="#research" id="nav-research">Research</a></li>
+        <li><a href="#publications" id="nav-publications">Publications</a></li>
+        <li><a href="#experience" id="nav-experience">Experience</a></li>
+        <li><a href="#news" id="nav-news">News</a></li>
+        <li><a href="#contact" id="nav-contact">Contact</a></li>
+        <li>
+          <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Theme">
+            <!-- SVG icon will be injected by script.js -->
+          </button>
+        </li>
+      </ul>
+      <button class="mobile-nav-toggle" aria-label="Toggle Navigation Menu" style="display: none;">
+        <!-- Mobile hamburger menu if needed -->
+      </button>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <!-- Hero / Intro Section -->
+    <section id="about" class="hero">
+      <div class="hero-content">
+        <span class="hero-tag">Assistant Professor at Stanford University</span>
+        <h1>Designing Human-Centered Artificial Intelligence</h1>
+        <p class="subtitle">Exploring the intersection of deep learning, cognitive science, and human-computer interaction.</p>
+        <p>I am an Assistant Professor of Computer Science. My research focuses on building AI systems that cooperate with humans, adapt to their workflows, and respect societal values. Previously, I was a postdoctoral researcher at MIT and received my Ph.D. from Carnegie Mellon University.</p>
+        <p>Feel free to look around my research work or reach out for collaboration opportunities.</p>
+        
+        <!-- Social/Academic Profile Links -->
+        <div class="social-links">
+          <a href="#" class="social-btn" aria-label="Google Scholar" title="Google Scholar">
+            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2zm3.9 13.9c-.3.4-.8.7-1.4.9-.6.2-1.3.3-2 .3s-1.4-.1-2-.3a3.5 3.5 0 0 1-1.4-.9 3.8 3.8 0 0 1-.9-1.5c-.2-.6-.3-1.3-.3-2.1s.1-1.5.3-2.1c.2-.6.5-1.1.9-1.5a3.5 3.5 0 0 1 1.4-.9c.6-.2 1.3-.3 2-.3s1.4.1 2 .3c.6.2 1.1.5 1.4.9.4.4.7.9.9 1.5.2.6.3 1.3.3 2.1s-.1 1.5-.3 2.1c-.2.6-.5 1.1-.9 1.5zm-3.9-6.8c-.8 0-1.4.2-1.8.7-.4.5-.6 1.2-.6 2.1s.2 1.6.6 2.1c.4.5 1 .7 1.8.7s1.4-.2 1.8-.7c.4-.5.6-1.2.6-2.1s-.2-1.6-.6-2.1c-.4-.5-1-.7-1.8-.7z"/>
+            </svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="ORCID" title="ORCID">
+            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-3.1 14.5H7.6V7.5h1.3v9zm-.7-10.3c-.4 0-.7-.3-.7-.7s.3-.7.7-.7.7.3.7.7-.3.7-.7.7zm7.3 10.3h-1.3v-4.1c0-1 0-2.3-1.4-2.3s-1.6 1.1-1.6 2.2v4.2h-1.3V7.5h1.3v1.2c.4-.7 1.3-1.4 2.6-1.4 2.8 0 3.3 1.8 3.3 4.2v5z"/>
+            </svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="GitHub" title="GitHub">
+            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482C19.138 20.193 22 16.44 22 12.017 22 6.484 17.522 2 12 2z"/>
+            </svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="LinkedIn" title="LinkedIn">
+            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.779-1.75-1.75s.784-1.75 1.75-1.75 1.75.779 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+            </svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="Twitter / X" title="Twitter / X">
+            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+      
+      <div class="hero-image-container">
+        <div class="hero-image-wrapper">
+          <img src="avatar.webp" alt="Dr. Sarah Jenkins Profile Photo" class="hero-image" id="profile-img">
+        </div>
+      </div>
+    </section>
+
+    <!-- Research Overview Section -->
+    <section id="research">
+      <h2>Research Focus</h2>
+      <div class="bio-details">
+        <div>
+          <p>My work sits at the intersection of AI models and human collaboration. I am particularly interested in designing algorithms that understand human intent, reason about social context, and present complex model explanations transparently. </p>
+          <p>Currently, my lab works on three core themes:</p>
+          <ul class="interest-list" style="margin-top: 1.5rem;">
+            <li class="interest-item">
+              <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <div>
+                <strong>Interactive & Cooperative Learning:</strong> Designing RL systems that actively elicit feedback from domain experts to refine decision boundaries.
+              </div>
+            </li>
+            <li class="interest-item">
+              <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <div>
+                <strong>Interpretability & Explanations:</strong> Developing visualization frameworks that represent high-dimensional model states in intuitive 2D environments.
+              </div>
+            </li>
+            <li class="interest-item">
+              <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <div>
+                <strong>Social & Ethical AI Policies:</strong> Assessing bias propagation in large language models across multiple social groups and designing mitigation strategies.
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <div class="bio-card">
+            <h3>Recent Keywords</h3>
+            <p>• Reinforcement Learning</p>
+            <p>• Human-AI Collaboration</p>
+            <p>• Explanable AI (XAI)</p>
+            <p>• Natural Language Interfaces</p>
+            <p>• Algorithmic Fairness</p>
+            <p>• Active Learning Systems</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications">
+      <h2>Selected Publications</h2>
+      
+      <!-- Interactive Filter Controls -->
+      <div class="filter-container">
+        <button class="filter-btn active" data-filter="all" id="filter-all">All</button>
+        <button class="filter-btn" data-filter="journal" id="filter-journals">Journals</button>
+        <button class="filter-btn" data-filter="conference" id="filter-conferences">Conferences</button>
+      </div>
+
+      <!-- Publication Cards List -->
+      <div class="publication-list">
+        
+        <!-- Pub Item 1 -->
+        <article class="publication-item" data-type="journal" id="pub-1">
+          <div class="pub-meta">
+            <span class="pub-tag journal">Journal</span>
+            <span class="pub-year">2026</span>
+          </div>
+          <h3 class="pub-title">Eliciting Human Intent in Interactive Reinforcement Learning</h3>
+          <div class="pub-authors">
+            <strong>Sarah Jenkins</strong>, Michael H. Chang, Emily R. Robinson
+          </div>
+          <div class="pub-venue">
+            IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2026.
+          </div>
+          <div class="pub-links">
+            <a href="#" class="pub-link-btn primary-btn" id="pub-1-pdf">PDF</a>
+            <a href="#" class="pub-link-btn" id="pub-1-code">Code</a>
+            <button class="abstract-toggle" data-target="abstract-1" id="pub-1-abstract-btn">
+              Abstract
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+          </div>
+          <div class="abstract-content" id="abstract-1">
+            We present a novel paradigm for interactive reinforcement learning where agents actively query human experts during critical decision states. Our methodology leverages uncertainty estimation over the policy distribution to identify state spaces where human feedback is most valuable. We demonstrate a 40% reduction in sample complexity across standard human-AI cooperative benchmarks.
+          </div>
+        </article>
+
+        <!-- Pub Item 2 -->
+        <article class="publication-item" data-type="conference" id="pub-2">
+          <div class="pub-meta">
+            <span class="pub-tag conference">Conference</span>
+            <span class="pub-year">2025</span>
+          </div>
+          <h3 class="pub-title">Understanding Explainable AI: User Perception of Saliency Maps</h3>
+          <div class="pub-authors">
+            Emily R. Robinson, <strong>Sarah Jenkins</strong>, David K. Wu
+          </div>
+          <div class="pub-venue">
+            Proceedings of the ACM Conference on Human Factors in Computing Systems (CHI), 2025.
+          </div>
+          <div class="pub-links">
+            <a href="#" class="pub-link-btn primary-btn" id="pub-2-pdf">PDF</a>
+            <a href="#" class="pub-link-btn" id="pub-2-slides">Slides</a>
+            <button class="abstract-toggle" data-target="abstract-2" id="pub-2-abstract-btn">
+              Abstract
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+          </div>
+          <div class="abstract-content" id="abstract-2">
+            This study conducts a large-scale user evaluation to measure how clinicians interpret model decisions using various explanation paradigms. Surprisingly, our results show that traditional saliency maps frequently mislead users in high-stakes scenarios. We propose an alternative visual explanation format based on counterfactual examples that substantially increases user decision accuracy.
+          </div>
+        </article>
+
+        <!-- Pub Item 3 -->
+        <article class="publication-item" data-type="conference" id="pub-3">
+          <div class="pub-meta">
+            <span class="pub-tag conference">Conference</span>
+            <span class="pub-year">2024</span>
+          </div>
+          <h3 class="pub-title">Mitigating Biased Associations in Multimodal Foundation Models</h3>
+          <div class="pub-authors">
+            <strong>Sarah Jenkins</strong>, Kevin L. Miller, Marcus Thompson
+          </div>
+          <div class="pub-venue">
+            International Conference on Machine Learning (ICML), 2024.
+          </div>
+          <div class="pub-links">
+            <a href="#" class="pub-link-btn primary-btn" id="pub-3-pdf">PDF</a>
+            <a href="#" class="pub-link-btn" id="pub-3-code">Code</a>
+            <button class="abstract-toggle" data-target="abstract-3" id="pub-3-abstract-btn">
+              Abstract
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+          </div>
+          <div class="abstract-content" id="abstract-3">
+            Multimodal models mapping images and text together often reproduce and amplify gender and racial stereotypes. In this work, we present a projection technique to scrub sensitive attributes from cross-modal embedding spaces without altering semantic representation quality. Experiments on CLIP demonstrate significant fairness improvements.
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Experience Timeline Section -->
+    <section id="experience">
+      <h2>Experience & Education</h2>
+      <div class="timeline">
+        
+        <!-- Timeline Item 1 -->
+        <div class="timeline-item left">
+          <div class="timeline-content">
+            <div class="timeline-date">2024 - Present</div>
+            <h3>Assistant Professor</h3>
+            <div class="timeline-institution">Stanford University</div>
+            <p>Leading the Human-Centered AI Lab. Advising Ph.D. students and teaching courses in Deep Learning and Human-AI Interaction.</p>
+          </div>
+        </div>
+
+        <!-- Timeline Item 2 -->
+        <div class="timeline-item right">
+          <div class="timeline-content">
+            <div class="timeline-date">2022 - 2024</div>
+            <h3>Postdoctoral Scholar</h3>
+            <div class="timeline-institution">Massachusetts Institute of Technology</div>
+            <p>Researched interactive policy alignment under supervision of Dr. Julie Adams at the Computer Science and Artificial Intelligence Lab (CSAIL).</p>
+          </div>
+        </div>
+
+        <!-- Timeline Item 3 -->
+        <div class="timeline-item left">
+          <div class="timeline-content">
+            <div class="timeline-date">2017 - 2022</div>
+            <h3>Ph.D. in Computer Science</h3>
+            <div class="timeline-institution">Carnegie Mellon University</div>
+            <p>Thesis on Cooperative AI Learning Paradigms. Received the outstanding dissertation award in the Human-Computer Interaction Institute.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- News / Blog Updates -->
+    <section id="news">
+      <h2>News & Updates</h2>
+      <div class="news-grid">
+        
+        <!-- News Card 1 -->
+        <article class="news-card" id="news-1">
+          <time class="news-date">June 2026</time>
+          <h3>Our paper on Interactive RL is accepted to TPAMI!</h3>
+          <p>Excited to share that our joint work with Michael Chang and Emily Robinson on cooperative learning is officially published.</p>
+        </article>
+
+        <!-- News Card 2 -->
+        <article class="news-card" id="news-2">
+          <time class="news-date">April 2026</time>
+          <h3>Invited Speaker at AI Ethics Summit</h3>
+          <p>I will be giving a keynote presentation on model bias mitigation at the upcoming AI Ethics Summit in New York City.</p>
+        </article>
+
+        <!-- News Card 3 -->
+        <article class="news-card" id="news-3">
+          <time class="news-date">January 2026</time>
+          <h3>Lab receives NSF Research Grant</h3>
+          <p>Grateful for the support from the National Science Foundation to fund our research project on human-AI cooperativeness.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Get In Touch</h2>
+      <div class="contact-container">
+        <div class="contact-info">
+          <p>If you're interested in collaborative research, applying to join our lab at Stanford, or speaking engagements, drop me a message or find me at my office.</p>
+          
+          <div class="contact-method">
+            <div class="contact-icon">
+              <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </div>
+            <div class="contact-text">
+              <h4>Email</h4>
+              <p><a href="mailto:sjenkins@stanford.edu">sjenkins@stanford.edu</a></p>
+            </div>
+          </div>
+
+          <div class="contact-method">
+            <div class="contact-icon">
+              <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+            </div>
+            <div class="contact-text">
+              <h4>Office</h4>
+              <p>Gates Computer Science Building, Room 342<br>Stanford, CA 94305</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <form class="contact-form" id="contact-form">
+          <div class="form-group">
+            <label for="form-name">Name</label>
+            <input type="text" id="form-name" class="form-control" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <label for="form-email">Email</label>
+            <input type="email" id="form-email" class="form-control" placeholder="Your Email Address" required>
+          </div>
+          <div class="form-group">
+            <label for="form-message">Message</label>
+            <textarea id="form-message" class="form-control" rows="5" placeholder="How can I help you?" required></textarea>
+          </div>
+          <button type="submit" class="submit-btn" id="form-submit-btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-content">
+      <div class="footer-copy">
+        &copy; 2026 Dr. Sarah Jenkins. All rights reserved.
+      </div>
+      <div class="footer-copy">
+        Designed for academic research visibility.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
