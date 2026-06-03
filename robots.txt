@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://shinichi-hgl.github.io/weiluo-personal-website/sitemap.xml
+Sitemap: https://wei-luo.com/sitemap.xml

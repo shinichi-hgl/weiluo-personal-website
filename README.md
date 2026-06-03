@@ -2,7 +2,7 @@
 
 This repository hosts the personal academic portfolio website of Dr. Wei Luo, Assistant Professor at the School of Government, Peking University. 
 
-*   **Live Website URL:** [https://shinichi-hgl.github.io/weiluo-personal-website/](https://shinichi-hgl.github.io/weiluo-personal-website/)
+*   **Live Website URL:** [https://wei-luo.com/](https://wei-luo.com/)
 *   **Hosting Platform:** GitHub Pages (automatic deployment on every push to the `main` branch).
 
 ---
