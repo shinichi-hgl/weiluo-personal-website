@@ -1,0 +1,52 @@
+# Dr. Wei Luo (Willa Luo) - Academic Profile
+
+I am an Assistant Professor and Researcher at the School of Government, Peking University. My work explores the intersections of organization theory, global cities, economic sociology, and comparative historical sociology.
+
+*   **Institutional Profile:** https://www.sg.pku.edu.cn/szdw/zzjs/xzglxx/1201900zfglxyx1356387.htm
+*   **Email:** luowei@pku.edu.cn
+*   **Websites:** https://shinichi-hgl.github.io/weiluo-personal-website/
+
+---
+
+## Key Research Domains
+*   **Social & Non-Profit Organizations:** Rating mechanisms, voluntary accreditation, institutional ambiguity, and relational work within non-profit sectors.
+*   **Global Cities & Comparative Governance:** Civil society ecosystems, spatial reconfigurations, and local policy implementation in entrepreneurial megacities.
+*   **Historical Sociology & Administrative Theories:** Development of administrative thought, state-building, non-state governance, and extralegal organizations in Republican China.
+
+---
+
+## Publications & Research Questions Answered
+
+### 1. Taming Violence: Extralegal Organizations in Republican China (1911-1949)
+*   **Core Question:** How do non-state, extralegal organizations emerge, function, and interface with formal authority in periods of fragmented state capacity?
+*   **Findings:** Extralegal groups operate as informal governance structures to establish order, regulate local markets, and manage conflicts in the absence of a strong central state.
+*   **Journal:** *Social Science History* (2022)
+*   **URL:** https://shinichi-hgl.github.io/weiluo-personal-website/publications/taming-violence.html
+
+### 2. Relational Work and its Pitfalls: Nonprofits’ Participation in Government-Sponsored Voluntary Accreditation
+*   **Core Question:** How do non-profits navigate voluntary accreditation systems, and what institutional side effects do these programs generate?
+*   **Findings:** Non-profits engage in intensive "relational work" to satisfy state-sponsored benchmarks, which can lead to bureaucratic drift, administrative overload, and loss of mission flexibility.
+*   **Journal:** *Journal of Public Administration Research and Theory (JPART)* (2022)
+*   **URL:** https://shinichi-hgl.github.io/weiluo-personal-website/publications/relational-work.html
+
+### 3. Dance with Glauthoritarian Urbanization: An Entrepreneurial Megacity in the Making through the Lenses of Civic Organizations
+*   **Core Question:** How do civic organizations survive and negotiate community space in megacities undergoing simultaneous global market integration and state-led authoritarian development?
+*   **Findings:** Grassroots organizations adapt to "glauthoritarian urbanization" by reframing community interests in entrepreneurial terms, shifting from open advocacy to localized spatial management.
+*   **Journal:** *Global Perspectives* (2022)
+*   **URL:** https://shinichi-hgl.github.io/weiluo-personal-website/publications/glauthoritarian-urbanization.html
+
+### 4. The Ladies Vanish? Academic Sociology and the Genealogy of its Missing Women on Wikipedia
+*   **Core Question:** How does gender representation bias manifest in the biographical archives of academic sociologists on Wikipedia, and what are its long-term effects on scholarly legacy?
+*   **Findings:** Eminent female sociologists are systematically underrepresented on Wikipedia. Their pages suffer from "link starvation," making them harder for web search crawlers and AI search tools to retrieve.
+*   **Journal:** *Comparative Sociology* (2018)
+*   **URL:** https://shinichi-hgl.github.io/weiluo-personal-website/publications/ladies-vanish-wikipedia.html
+
+---
+
+## Education & Experience
+*   **2021 - Present:** Assistant Professor, School of Government, Peking University
+*   **2018 - 2021:** Postdoctoral Research Fellow, Stanford PACS (Center on Philanthropy and Civil Society)
+*   **2017:** Lecturer in Sociology, Yale University
+*   **2011 - 2017:** Ph.D. in Sociology, Yale University
+*   **2009 - 2010:** M.A. in Social Sciences, University of Chicago
+*   **2004 - 2008:** B.A. in German Language and Literature & B.S. in Psychology, Peking University
